@@ -31,11 +31,7 @@ git lfs pull
 
 Open the Unity Hub, click Open, and open the arl-unity-robotics project.
 
-### [Optional] Step 4: Add Environment Project to Unity
-
-Move the Environment2020 folder from this repository to your Unity projects folder. Open it from the Unity Hub the same way as above.
-
-### Step 5: Add Environment Configuration Files to ARL Framework
+### Step 4: Add Environment Configuration Files to ARL Framework
 
 Move the `environment` folder from this repository to `/path/to/arl-unity-ros/src/arl-unity-ros/environments`.
 
@@ -48,7 +44,7 @@ cd /path/to/arl-unity-ros
 catkin build
 ```
 
-### Step 6: Launch the Environment
+### Step 5: Launch the Environment
 
 Open the ARL Unity Project.
 <br> Under `Assets/SimulationCore` open the `Simulation.unity` scene.
@@ -82,7 +78,15 @@ python /path/to/Forest-Environment/controller.py
 
 ## Editing the Environment
 
-If you would like to make changes to the environment, open the Environment2020 project in Unity to make edits.
+Download the [Environment2020 Project]() into your Unity projects folder:
+
+```
+cd /path/to/Unity/projects
+git clone 
+```
+
+Open the Unity Hub, click Open, and open the Environment2020 project.
+<br> Make whatever changes to the environment you would like.
 
 ### Adding Your Updates
 

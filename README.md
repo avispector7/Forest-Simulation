@@ -103,7 +103,7 @@ In the Unity dropdown menu, click "Assets -> Build AssetBundles".
 In the `Forest-Environment/Assets/AssetBundles` folder, copy the file `environment`.
 <br> In `/path/to/arl-unity-ros/src/arl-unity-ros/environments/environment/unity`, delete the `environment` file and replace it with the one you copied.
 
-Build the arl-unit-ros workspace.
+Build the arl-unit-ros workspace:
 
 ```
 cd /path/to/arl-unity-ros

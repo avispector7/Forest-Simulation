@@ -114,5 +114,5 @@ catkin build
 
 When launching the environment, if at any point there is an error in the terminal in red that says `bind failed`, an error has occured when loading the environment.
 <br> Stop the terminal process by pressing ctrl+C. Stop the Unity simulator by pressing the play button.
-<br> Restart from Step 6 above.
+<br> Restart from Step 5 above.
 <br> Repeat this if the error occurs again.

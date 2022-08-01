@@ -77,15 +77,15 @@ python /path/to/Forest-Simulation/controller.py
 
 ## Editing the Environment
 
-Download the [Forest-Environment Project]() into your Unity projects folder:
+Download the [Forest Environment Project](https://github.com/avispector7/Forest-Environment) into your Unity projects folder:
 
 ```
 cd /path/to/Unity/projects
-git clone 
+git clone https://github.com/avispector7/Forest-Environment.git
 ```
 
 Open the Unity Hub, click Open, and open the Forest-Environment project.
-<br> Make whatever changes to the environment you would like.
+<br> Make whatever changes to the environment you would like. Don't forget to save.
 
 ### Adding Your Updates
 

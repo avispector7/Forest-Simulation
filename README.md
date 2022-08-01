@@ -1,6 +1,5 @@
 # Forest Simulation Framework
-
-These are the resources for the forest simulation framework.
+Resources for simulating a forest environment with a Clearpath Husky robot. Uses ARL Unity ROS framework.
 
 ## Integration
 

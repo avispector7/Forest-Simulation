@@ -77,7 +77,7 @@ python /path/to/Forest-Simulation/controller.py
 
 ## Editing the Environment
 
-Download the [Forest Environment Project](https://github.com/avispector7/Forest-Environment) into your Unity projects folder:
+Download the [Forest-Environment](https://github.com/avispector7/Forest-Environment) project into your Unity projects folder:
 
 ```
 cd /path/to/Unity/projects

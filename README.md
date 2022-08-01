@@ -1,6 +1,6 @@
-# Forest-Environment
+# Forest Simulation Framework
 
-These are the resources for the forest environment framework.
+These are the resources for the forest simulation framework.
 
 ## Integration
 
@@ -12,7 +12,7 @@ Unity Hub, Unity 2020
 ### Step 1: Clone the Repository
 
 ```
-git clone https://github.com/avispector7/Forest-Environment.git
+git clone https://github.com/avispector7/Forest-Simulation.git
 ```
 
 ### Step 2: Install ARL Framework
@@ -73,30 +73,30 @@ In the script, in the `main()` method, under `# controls`, add commands to drive
 Make sure the environment simulation is running and run the script:
 
 ```
-python /path/to/Forest-Environment/controller.py
+python /path/to/Forest-Simulation/controller.py
 ```
 
 ## Editing the Environment
 
-Download the [Environment2020 Project]() into your Unity projects folder:
+Download the [Forest-Environment Project]() into your Unity projects folder:
 
 ```
 cd /path/to/Unity/projects
 git clone 
 ```
 
-Open the Unity Hub, click Open, and open the Environment2020 project.
+Open the Unity Hub, click Open, and open the Forest-Environment project.
 <br> Make whatever changes to the environment you would like.
 
 ### Adding Your Updates
 
 To add your changes to the ARL framework:
 
-Delete the `AssetBundles` folder in `path/to/Unity/projects/Environment2020/Assets`.
+Delete the `AssetBundles` folder in `path/to/Unity/projects/Forest-Environment/Assets`.
 <br> In the Unity project window, click on the file `Scene.unity`. On the lower right side of the inspector window, under "Asset Labels", click on the dropdown next to "AssetBundle" and click "New...". Type "environment" and press enter.
-<br> In the Unity dropdown menu, click "Assets -> Build AssetBundles". A new `AssetBundles` folder should appear in the `Environment2020/Assets` folder where you previously deleted it.
+<br> In the Unity dropdown menu, click "Assets -> Build AssetBundles". A new `AssetBundles` folder should appear in the `Forest-Environment/Assets` folder where you previously deleted it.
 
-In the `Environment2020/Assets/AssetBundles` folder, copy the file `environment`.
+In the `Forest-Environment/Assets/AssetBundles` folder, copy the file `environment`.
 <br> In `/path/to/arl-unity-ros/src/arl-unity-ros/environments/environment/unity`, delete the `environment` file and replace it with the one you copied.
 
 Build the arl-unit-ros workspace.

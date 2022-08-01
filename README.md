@@ -1,10 +1,10 @@
 # Forest Simulation Framework
-
 Resources for simulating a forest environment with a Clearpath Husky robot. Uses ARL Unity ROS framework.
 
 ## Integration
 
 ### Requirements
+
 Unity Hub, Unity 2020
 <br> ROS (this repository uses ROS Noetic)
 <br> rospy
@@ -20,7 +20,6 @@ git clone https://github.com/avispector7/Forest-Simulation.git
 Go to [ARL-Unity-ROS GitLab](https://gitlab.sitcore.net/arl/robotics-simulation/arl-unity-ros) and follow the instructions for Building from Source. Make sure the installation working properly.
 
 ### Step 3: Download ARL Unity Project
-
 Clone the [ARL-Unity-Robotics](https://gitlab.sitcore.net/arl/robotics-simulation/arl-unity-robotics) Unity project into your Unity projects folder:
 
 ```

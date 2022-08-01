@@ -93,8 +93,13 @@ Open the Unity Hub, click Open, and open the Forest-Environment project.
 To add your changes to the ARL framework:
 
 Delete the `AssetBundles` folder in `path/to/Unity/projects/Forest-Environment/Assets`.
-<br> In the Unity project window, click on the file `Scene.unity`. On the lower right side of the inspector window, under "Asset Labels", click on the dropdown next to "AssetBundle" and click "New...". Type "environment" and press enter.
-<br> In the Unity dropdown menu, click "Assets -> Build AssetBundles". A new `AssetBundles` folder should appear in the `Forest-Environment/Assets` folder where you previously deleted it.
+
+In the Unity project window, click on the file `Scene.unity`.
+<br> On the lower right side of the inspector window, under "Asset Labels", click on the dropdown next to "AssetBundle" and click "New...".
+<br> Type "environment" and press enter.
+
+In the Unity dropdown menu, click "Assets -> Build AssetBundles".
+<br> A new `AssetBundles` folder should appear in the `Forest-Environment/Assets` folder where you previously deleted it.
 
 In the `Forest-Environment/Assets/AssetBundles` folder, copy the file `environment`.
 <br> In `/path/to/arl-unity-ros/src/arl-unity-ros/environments/environment/unity`, delete the `environment` file and replace it with the one you copied.

@@ -23,7 +23,7 @@ Go to [ARL-Unity-ROS GitLab](https://gitlab.sitcore.net/arl/robotics-simulation/
 Clone the [ARL-Unity-Robotics](https://gitlab.sitcore.net/arl/robotics-simulation/arl-unity-robotics) Unity project into your Unity projects folder:
 
 ```
-cd /path/to/Unity/projects
+cd /path/to/Unity-projects
 git clone https://gitlab.sitcore.net/arl/robotics-simulation/arl-unity-robotics
 cd arl-unity-robotics
 git lfs pull
@@ -81,7 +81,7 @@ python /path/to/Forest-Simulation/controller.py
 Download the [Forest-Environment](https://github.com/avispector7/Forest-Environment) project into your Unity projects folder:
 
 ```
-cd /path/to/Unity/projects
+cd /path/to/Unity-projects
 git clone https://github.com/avispector7/Forest-Environment.git
 cd Forest-Environment
 git lfs pull
@@ -94,7 +94,7 @@ Open the Unity Hub, click Open, and open the Forest-Environment project.
 
 To add your changes to the ARL framework:
 
-Delete the `AssetBundles` folder in `path/to/Unity/projects/Forest-Environment/Assets`.
+Delete the `AssetBundles` folder in `path/to/Unity-projects/Forest-Environment/Assets`.
 
 In the Unity project window, click on the file `Scene.unity`.
 <br> On the lower right side of the inspector window, under "Asset Labels", click on the dropdown next to "AssetBundle" and click "New...".

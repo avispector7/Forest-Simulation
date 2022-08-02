@@ -82,6 +82,8 @@ Download the [Forest-Environment](https://github.com/avispector7/Forest-Environm
 ```
 cd /path/to/Unity/projects
 git clone https://github.com/avispector7/Forest-Environment.git
+cd Forest-Environment
+git lfs pull
 ```
 
 Open the Unity Hub, click Open, and open the Forest-Environment project.

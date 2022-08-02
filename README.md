@@ -25,6 +25,7 @@ Clone the [ARL-Unity-Robotics](https://gitlab.sitcore.net/arl/robotics-simulatio
 ```
 cd /path/to/Unity/projects
 git clone https://gitlab.sitcore.net/arl/robotics-simulation/arl-unity-robotics
+cd arl-unity-robotics
 git lfs pull
 ```
 

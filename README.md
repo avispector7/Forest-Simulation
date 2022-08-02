@@ -15,11 +15,11 @@ Unity Hub, Unity 2020
 git clone https://github.com/avispector7/Forest-Simulation.git
 ```
 
-### Step 2: Install ARL Framework
+### Step 2: Install the ARL Framework
 
 Go to [ARL-Unity-ROS GitLab](https://gitlab.sitcore.net/arl/robotics-simulation/arl-unity-ros) and follow the instructions for Building from Source. Make sure the installation working properly.
 
-### Step 3: Download ARL Unity Project
+### Step 3: Download the ARL Unity Project
 Clone the [ARL-Unity-Robotics](https://gitlab.sitcore.net/arl/robotics-simulation/arl-unity-robotics) Unity project into your Unity projects folder:
 
 ```
@@ -31,7 +31,7 @@ git lfs pull
 
 Open the Unity Hub, click Open, and open the arl-unity-robotics project.
 
-### Step 4: Add Environment Configuration Files to ARL Framework
+### Step 4: Add the Environment Configuration Files to the ARL Framework
 
 Move the `environment` folder from this repository to `/path/to/arl-unity-ros/src/arl-unity-ros/environments`.
 

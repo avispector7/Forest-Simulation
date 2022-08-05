@@ -1,27 +1,47 @@
 <launch>
 
-  <!-- simulator args -->
+  <!-- Simulator args -->
+  
+  <!-- launch ARL simulation window - *DO NOT CHANGE* -->
   <arg name="launch_unity" default="false"/>
+  
   <!-- ***Change the path in the following line to the path to the arl-unity-ros workspace on your computer*** -->
   <arg name="simulator_param_file" default="/path/to/arl-unity-ros/src/arl-unity-ros/environments/environment/config/environment.yaml"/>
-
-  <!-- husky args -->
+  
+  
+  <!-- Husky args -->
+  
+  <!-- configuration file for husky
+       change to any husky file in arl_unity_ros_ground/config for different sensors -->
   <arg name="robot_description" default="$(find arl_unity_ros_ground)/config/husky_camera_os1_semantic.yaml"/>
+  
+  <!-- name of simulated husky robot -->
   <arg name="name" default="husky"/>
+  
+  <!-- start position of Husky robot -->
+  <!-- change based on positions in Forest-Environment Unity project -->
+  <!-- x_here = z_unity, y_here = -x_unity, z_here = y_unity -->
   <arg name="x" default="10"/>
   <arg name="y" default="-25"/>
   <arg name="z" default="2.5"/>
   <arg name="yaw" default="0"/>
+  
+  <!-- configuration param - *DO NOT CHANGE* -->
   <arg name="ekf" default="true"/>
 
-  <!-- rviz args -->
+  
+  <!-- RViz args -->
+  <!-- change to true to launch rviz window for camera and lidar -->
   <arg name="rviz" default="false"/>
 
+  
+  <!-- ARL simulator launch file - *DO NOT CHANGE* -->
   <include file="$(find arl_unity_ros)/launch/simulator.launch">
     <arg name="launch_unity" value="$(arg launch_unity)"/>
     <arg name="param_file" value="$(arg simulator_param_file)"/>
   </include>
 
+  <!-- ARL Husky launch file - *DO NOT CHANGE* -->
   <include file="$(find arl_unity_ros_ground)/launch/husky.launch">
     <arg name="description" value="$(arg robot_description)"/>
     <arg name="x" value="$(arg x)"/>
@@ -30,7 +50,8 @@
     <arg name="yaw" value="$(arg yaw)"/>
     <arg name="ekf" value="$(arg ekf)"/>
   </include>
-
+  
+  <!-- RViz launch node - *DO NOT CHANGE* -->
   <node if="$(arg rviz)" pkg="rviz" type="rviz" name="rviz" args="-d $(find arl_unity_ros_ground)/rviz/husky.rviz"/>
 
 </launch>

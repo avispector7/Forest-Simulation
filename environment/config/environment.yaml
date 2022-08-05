@@ -1,3 +1,4 @@
+# configuration file to load the Forest-Environment scene - *DO NOT CHANGE*
 unity_command:
   unity_setup:
     Spawner:

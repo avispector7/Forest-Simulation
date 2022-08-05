@@ -36,7 +36,7 @@ Open the Unity Hub, click Open, and open the arl-unity-robotics project.
 Move the `environment` folder from this repository to `/path/to/arl-unity-ros/src/arl-unity-ros/environments`.
 
 Move the `environment_with_husky.launch` file from this repository to `/path/to/arl-unity-ros/src/arl-unity-ros/arl_unity_ros_ground/launch`.
-<br>*\*\*\*Important\*\*\** Change line 6 of this file to the path to the arl-unity-ros workspace on your computer.
+<br>***Important*** Change line 6 of this file to the path to the arl-unity-ros workspace on your computer.
 
 Build the arl-unity-ros workspace:
 

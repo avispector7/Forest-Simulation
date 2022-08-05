@@ -2,7 +2,8 @@
 
   <!-- simulator args -->
   <arg name="launch_unity" default="false"/>
-  <arg name="simulator_param_file" default="/home/mpscreuone/arl-unity-ros/src/arl-unity-ros/environments/environment/config/environment.yaml"/>
+  <!-- ***Change the path in the following line to the path to the arl-unity-ros workspace on your computer *** -->
+  <arg name="simulator_param_file" default="/path/to/arl-unity-ros/src/arl-unity-ros/environments/environment/config/environment.yaml"/>
 
   <!-- husky args -->
   <arg name="robot_description" default="$(find arl_unity_ros_ground)/config/husky_camera_os1_semantic.yaml"/>

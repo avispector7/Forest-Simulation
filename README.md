@@ -69,7 +69,7 @@ roslaunch arl_unity_ros_ground environment_with_husky.launch rviz:=true
 
 To control the Husky robot using the included `controller.py` script:
 
-In the script, in the `main()` method, under `# controls`, add commands to drive (forward/backward) and turn the Husky robot.
+In the script, in the `main()` method, under `# controls`, add commands to drive (forward/backward) and turn the Husky robot. Instructions for these commands, as well as a few sample movement commands, are in the file.
 
 Make sure the environment simulation is running and run the script:
 

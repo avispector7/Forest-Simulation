@@ -91,6 +91,8 @@ git lfs pull
 Open the Unity Hub, click Open, and open the Forest-Environment project.
 <br> Make whatever changes to the environment you would like. Don't forget to save.
 
+A list of the Unity assets used in this project are on the Forest-Simulation GitHub.
+
 ### Adding Your Updates
 
 To add your changes to the ARL framework:

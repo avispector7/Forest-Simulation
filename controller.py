@@ -94,6 +94,12 @@ def main():
     # call turn_deg to input an angle in degrees, turn_rad to input an angle in radians
     # pub, rate from above
     
+    # sample movement commands:
+    # moves robot forward 5 units, turns 90 degrees to left, moves backward 3 units
+    drive(5, pub, rate)
+    turn_deg(90, pub, rate)
+    drive(-3, pub, rate)
+    
     # movement commands here:
     
 

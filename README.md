@@ -20,7 +20,7 @@ git clone https://github.com/avispector7/Forest-Simulation.git
 Go to [ARL-Unity-ROS GitLab](https://gitlab.sitcore.net/arl/robotics-simulation/arl-unity-ros) and follow the instructions for Building from Source. Make sure the installation working properly.
 
 ### Step 3: Download the ARL Unity Project
-Clone the [ARL-Unity-Robotics](https://gitlab.sitcore.net/arl/robotics-simulation/arl-unity-robotics) Unity project into your Unity projects folder:
+Clone the [ARL-Unity-Robotics](https://gitlab.sitcore.net/arl/robotics-simulation/arl-unity-robotics) Unity project into your Unity projects folder (wherever you store/would like to store your Unity project files):
 
 ```
 cd /path/to/Unity-projects

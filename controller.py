@@ -95,10 +95,10 @@ def main():
     # pub, rate from above
     
     # sample movement commands:
-    # moves robot forward 5 units, turns 90 degrees to left, moves backward 3 units
+    # moves robot forward 5 units, turns 90 degrees to left, moves backward 4 units
     drive(5, pub, rate)
     turn_deg(90, pub, rate)
-    drive(-3, pub, rate)
+    drive(-4, pub, rate)
     
     # movement commands here:
     

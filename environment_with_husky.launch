@@ -5,7 +5,7 @@
   <!-- launch ARL simulation window - *DO NOT CHANGE* -->
   <arg name="launch_unity" default="false"/>
   
-  <!-- ***Change the path in the following line to the path to the arl-unity-ros workspace on your computer*** -->
+  <!-- ***Change "/path/to/arl-unity-ros/" in the following line to the path to the arl-unity-ros workspace on your computer (leave the rest)*** -->
   <arg name="simulator_param_file" default="/path/to/arl-unity-ros/src/arl-unity-ros/environments/environment/config/environment.yaml"/>
   
   
